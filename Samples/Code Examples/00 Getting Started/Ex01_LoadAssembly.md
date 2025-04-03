@@ -3,6 +3,19 @@ This example shows how you can load a pre-existing .dll assembly using Roslyn C#
 Loading via Roslyn C# rather than `Assembly.Load` has the added benefit of optionally performing code security valdiation to check whether the assembly may contain potentially harmful code, 
 and then you can also with with the `ScriptAssembly` API which aims to make it easier to find an instantiate types etc.
 
+#### Using statements
+<details>
+  <summary>List of using statements required by code examples provided here</summary>
+
+```cs
+using RoslynCSharp;
+using System.Linq;
+using UnityEngine;
+```
+</details>
+
+---
+
 #### Load Assembly Path
 The following example shows how you can load an assmebly using a file path:
 ```cs
