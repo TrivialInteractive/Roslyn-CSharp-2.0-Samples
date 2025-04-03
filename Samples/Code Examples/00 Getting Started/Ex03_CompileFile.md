@@ -3,6 +3,20 @@
 This example shows how you can compile one or more strings containing file paths to C# source files (.cs) or any other file type containing C# source text.
 Note that this example only covers compiling and will not load the resulting output assembly into the game. For most users it is recommended to check out the CompileAndLoadFile example which covers compilation and loading in a single operation.
 
+#### Using statements
+<details>
+  <summary>List of using statements required by code examples provided here</summary>
+
+```cs
+using RoslynCSharp;
+using System.Linq;
+using UnityEngine;
+```
+</details>
+
+---
+
+#### Compile File Path
 Firstly a single file path to a .cs file or other file containins C# text can be compiled as shown in this example:
 ```cs
 public class CompileFile : MonoBehaviour
@@ -34,6 +48,7 @@ public class CompileFile : MonoBehaviour
 }
 ```
 
+#### Compile File Path Array
 Additionally it is also posisble to compile multiple string paths together in a batch, and that way the code contained within the source files will be able to reference each other as if they were part of the same C# project. Note that the method name has changed to the plural CompileFile(s):
 ```cs
 public class CompileFile : MonoBehaviour
