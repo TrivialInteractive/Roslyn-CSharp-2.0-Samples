@@ -17,7 +17,7 @@ using UnityEngine;
 ---
 
 #### Compile Source String
-Firstly a string containins C# code can be compiled as shown in this example:
+Firstly a string containing C# code can be compiled as shown in this example:
 ```cs
 public class CompileSource : MonoBehaviour
 {
