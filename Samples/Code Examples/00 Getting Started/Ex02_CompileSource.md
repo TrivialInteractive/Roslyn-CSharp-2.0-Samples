@@ -3,6 +3,20 @@
 This example shows how you can compile one or more strings containing C# source code using Roslyn C#. 
 Note that this example only covers compiling and will not load the resulting output assembly into the game. For most users it is recommended to check out the `CompileAndLoadSource` example which covers compilation and loading in a single operation.
 
+#### Using statements
+<details>
+  <summary>List of using statements required by code examples provided here</summary>
+
+```cs
+using RoslynCSharp;
+using System.Linq;
+using UnityEngine;
+```
+</details>
+
+---
+
+#### Compile Source String
 Firstly a string containins C# code can be compiled as shown in this example:
 ```cs
 public class CompileSource : MonoBehaviour
@@ -42,6 +56,7 @@ public class CompileSource : MonoBehaviour
 }
 ```
 
+#### Compile Source String Array
 Additionally it is also posisble to compile multiple strings together in a batch, and that way the code contained within the strings will be able to reference each other as if they were part of the same C# project.
 Note that the method name has changed to the plural `CompileSource(s)`:
 ```cs
