@@ -1,5 +1,5 @@
 # Compile Async
-All of the compile methods coverd so far also have equivilent async variants by appending `Async` to the method name. 
+All of the compile methods covered so far also have equivilent async variants by appending `Async` to the method name. 
 For example: `CompileSource` will become `CompileSourceAsync` and all compile async variants return a CompileAsync object.
 This example shows how you can use the async variations either in a coroutine or in a C# async/await context.
 
