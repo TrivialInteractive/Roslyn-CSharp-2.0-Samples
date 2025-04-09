@@ -1,9 +1,9 @@
 # Compile Async
 All of the compile methods covered so far also have equivilent async variants by appending `Async` to the method name. 
-For example: `CompileSource` will become `CompileSourceAsync` and all compile async variants return a CompileAsync object.
+For example: `CompileSource` will become `CompileSourceAsync` and all compile async variants return a `CompileAsync` object.
 This example shows how you can use the async variations either in a coroutine or in a C# async/await context.
 
-Only `CompileFileAsync` method will be covered here to keep this example concise, however the exact same principals apply to all `Compile...Async` variants (But not `CompileAndLoad...Async variants - see later CompileAndLoadAsync example)
+Only `CompileFileAsync` method will be covered here to keep this example concise, however the exact same principals apply to all `Compile...Async` variants (But not `CompileAndLoad...Async variants - see later `CompileAndLoadAsync` example)
 
 #### Using statements
 <details>
