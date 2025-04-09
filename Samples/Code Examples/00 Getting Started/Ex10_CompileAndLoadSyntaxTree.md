@@ -1,6 +1,6 @@
 # Compile And Load From Syntax Tree
 
-This example shows how you can compile and load one or more `Microsoft.CodeAnalysis.SyntaxTree` using Roslyn C#
+This example shows how you can compile and load one or more `Microsoft.CodeAnalysis.SyntaxTree` using Roslyn C#.
 Compile and load operations mean that the source will first be compiled, then code security checked if applicable, and then finally loaded into the game so it can be executed when required.
 
 #### Using statements
