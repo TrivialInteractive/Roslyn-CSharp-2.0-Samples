@@ -20,7 +20,7 @@ using UnityEngine;
 ---
 
 #### Compile And Load Syntax Tree
-Firstly you can compile and load a source string containg C# code as shown below.
+Firstly you can compile and load a C# syntax tree as shown below.
 
 ```cs
 public class CompileAndLoadSource : MonoBehaviour
