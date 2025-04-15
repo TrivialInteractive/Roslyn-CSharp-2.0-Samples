@@ -49,7 +49,7 @@ The following examples show how you can use a custom main type selector in Rosly
 Firstly if you are loading an assembly rather than compiling then you can simply pass in an instance of the custom type selector as an argument.
 
 ```cs
-public class CustomTypeSelector : MonoBehaviour
+public class MainTypeSelectorExample : MonoBehaviour
 {
     // Private
     private const string assemblyFile = "path/to/assembly.dll";
@@ -72,7 +72,7 @@ public class CustomTypeSelector : MonoBehaviour
 For `CompileAndLoad...` or `CompileAndLoadMain...` API's, you can provide a custom type selector via the `CompileOptions` parameter.
 
 ```cs
-public class CustomTypeSelector : MonoBehaviour
+public class MainTypeSelectorExample : MonoBehaviour
 {
     // Private
     private const string sourceFile = "path/to/source/file.cs";
