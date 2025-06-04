@@ -3,7 +3,7 @@ Documentation and samples for Roslyn C# - Runtime Compiler 2.0 for the Unity gam
 See the [user guide](http://trivialinteractive.co.uk/products/documentation/roslyncsharp20/UserGuide.pdf) in addition for further information, as well as the [scripting reference](https://trivialinteractive.co.uk/products/scriptingreference/roslyncsharp20) for the API.
 
 ## Upgrading from 1.0?
-Existing user upgrading from the original Roslyn C# asset? Check out the [migration guide](https://github.com/TrivialInteractive/Roslyn-CSharp-2.0-Samples/wiki/Upgrade-Guide-(1.0-%E2%80%90-2.0) to see the main differences between versions and what changes you will need to make to upgrade and existing project.
+Existing user upgrading from the original Roslyn C# asset? Check out the [migration guide](https://github.com/TrivialInteractive/Roslyn-CSharp-2.0-Samples/wiki/Upgrade-Guide-(1.0-%E2%80%90-2.0)) to see the main differences between versions and what changes you will need to make to upgrade and existing project.
 
 ## Where to begin?
 Check out the [Wiki](https://github.com/TrivialInteractive/Roslyn-CSharp-2.0-Samples/wiki) for code examples and [frequently asked questions](https://github.com/TrivialInteractive/Roslyn-CSharp-2.0-Samples/wiki/FAQ).
